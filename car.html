@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday Brother!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      overflow: hidden;
+    }
+
+    /* Background video */
+    .bg-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    /* Darker semi-transparent overlay */
+    .overlay {
+      position: relative;
+      z-index: 1;
+      background-color: rgba(0, 0, 0, 0.6); /* Dark background for better contrast */
+      padding: 40px 30px;
+      width: 90%;
+      max-width: 1500px;
+      border-radius: 120px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      box-sizing: border-box;
+      color: #fff; /* White text */
+      text-align: center;
+      margin: auto;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    h1 {
+      font-size: 3.4em;
+      color: red; /* Bright title color */
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 2.2em;
+      color: #f0f0f0;
+      margin-bottom: 40px;
+    }
+
+    .icons {
+      font-size: 3.0em;
+      margin-bottom: 30px;
+      color: #ffffff;
+    }
+
+    p {
+      font-size: 1.8em;
+      line-height: 1.9;
+      color: #ffffff;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 1.5em;
+      color: #ccc;
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 2.5em; }
+      h2 { font-size: 1.5em; }
+      .icons { font-size: 2.2em; }
+      p { font-size: 1.4em; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background Video -->
+  <video class="bg-video" autoplay muted loop playsinline>
+    <source src="thar.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Content -->
+  <div class="overlay">
+    <h1>🎉 Happy Birthday Pandu Annaya! 🎉</h1>
+    <h2>To the doctor who rides with passion and lives with music in his soul.</h2>
+
+    <div class="icons">
+      🩺 🚙 🏍️ 🎶
+    </div>
+
+    <p>
+      Dear Pandu Annaya,<br><br>
+      On your special day, I just want to say how proud I am of the man you’ve become.<br><br>
+      A doctor who heals, a rider who feels the wind, and a soul moved by music.<br><br>
+      May your Thar take you to beautiful places, may your Jawa roar with freedom,  
+      and may your stethoscope always lead to hearts full of gratitude.<br><br>
+      Wishing you a year filled with health, happiness, and high notes of joy.<br><br>
+
+      With lots of love,<br>
+      — Your Sister
+    </p>
+
+    <footer>
+      © 2025 | Celebrating you today and always.
+    </footer>
+  </div>
+
+</body>
+</html>
