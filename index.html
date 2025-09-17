@@ -10,7 +10,8 @@
       padding: 0;
       height: 100%;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      overflow: hidden;
+      /* Removed overflow: hidden to allow scroll */
+      background: transparent;
     }
 
     /* Background video */
@@ -24,52 +25,50 @@
       z-index: -1;
     }
 
-    /* Darker semi-transparent overlay */
+    /* Overlay with white background */
     .overlay {
       position: relative;
       z-index: 1;
-      background-color: rgba(0, 0, 0, 0.6); /* Dark background for better contrast */
+      background-color: rgba(255, 255, 255, 0.85);
       padding: 40px 30px;
-      width: 90%;
+      width: 95%;
       max-width: 1000px;
       border-radius: 12px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
       box-sizing: border-box;
-      color: #fff; /* White text */
+      color: #000;
       text-align: center;
-      margin: auto;
-      top: 50%;
-      transform: translateY(-50%);
+      margin: 60px auto; /* Adds spacing from top and centers */
     }
 
     h1 {
       font-size: 3.4em;
-      color: red; /* Bright title color */
+      color: red;
       margin-bottom: 20px;
     }
 
     h2 {
       font-size: 2.2em;
-      color: #f0f0f0;
+      color: #111;
       margin-bottom: 40px;
     }
 
     .icons {
       font-size: 3.0em;
       margin-bottom: 30px;
-      color: #ffffff;
+      color: #000;
     }
 
     p {
       font-size: 1.8em;
       line-height: 1.9;
-      color: #ffffff;
+      color: #111;
     }
 
     footer {
       margin-top: 50px;
       font-size: 1.5em;
-      color: #ccc;
+      color: #444;
     }
 
     @media (max-width: 600px) {
@@ -116,5 +115,3 @@
 
 </body>
 </html>
-
-
