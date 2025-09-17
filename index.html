@@ -10,7 +10,6 @@
       padding: 0;
       height: 100%;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      /* Removed overflow: hidden to allow scroll */
       background: transparent;
     }
 
@@ -25,7 +24,7 @@
       z-index: -1;
     }
 
-    /* Overlay with white background */
+    /* Overlay with dark background */
     .overlay {
       position: relative;
       z-index: 1;
@@ -38,44 +37,45 @@
       box-sizing: border-box;
       color: #000;
       text-align: center;
-      margin: 60px auto; /* Adds spacing from top and centers */
+      margin: 60px auto;
     }
 
     h1 {
-      font-size: 3.4em;
+      font-size: 2.8em;
       color: red;
       margin-bottom: 20px;
     }
 
     h2 {
-      font-size: 2.2em;
+      font-size: 1.8em;
       color: white;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
     }
 
     .icons {
-      font-size: 3.0em;
-      margin-bottom: 30px;
-      color: #000;
+      font-size: 2.4em;
+      margin-bottom: 25px;
+      color: #fff;
     }
 
     p {
-      font-size: 1.8em;
-      line-height: 1.9;
+      font-size: 1.5em;
+      line-height: 1.7;
       color: white;
     }
 
     footer {
-      margin-top: 50px;
-      font-size: 1.5em;
+      margin-top: 40px;
+      font-size: 1.3em;
       color: white;
     }
 
     @media (max-width: 600px) {
-      h1 { font-size: 2.5em; }
-      h2 { font-size: 1.5em; }
-      .icons { font-size: 2.2em; }
-      p { font-size: 1.4em; }
+      h1 { font-size: 2em; }
+      h2 { font-size: 1.3em; }
+      .icons { font-size: 2em; }
+      p { font-size: 1.2em; }
+      footer { font-size: 1em; }
     }
   </style>
 </head>
@@ -115,5 +115,3 @@
 
 </body>
 </html>
-
-
